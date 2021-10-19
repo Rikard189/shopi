@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'product/create'
+  get 'product/edit'
+  get 'product/delete'
   get 'shop_list/index'
   get 'shop_list/create'
   get 'shop_list/delete'
